@@ -1,0 +1,313 @@
+* {
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-rendering: optimizelegibility;
+    font-weight: 400;
+    color: white;
+}
+
+.auto-margin {
+    margin: auto;
+    width: 86%;
+}
+
+
+/* navbar start here?--------------------------------------------------------------------- */
+
+.navbar {
+    position: sticky;
+    background-color: #2c2c32;
+    background-size: 50px;
+}
+
+.nav {
+    /* border-bottom: 1px solid wheat solid black;------------ */
+    display: flex;
+}
+
+
+/* navbar first half start here?----------- */
+
+.firstnav {
+    display: flex;
+    width: 72%;
+}
+
+.firstnav span {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    padding-right: 28px;
+    padding-left: 34px;
+    font-size: 20px;
+}
+
+
+/* VS logo here? ----------------------*/
+
+.vs-code {
+    cursor: pointer;
+    letter-spacing: -0.04rem;
+    font-size: 20px;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    padding-top: 10px;
+    color: white;
+}
+
+.vs-code img {
+    padding-top: 8px;
+    position: absolute;
+    top: 5px;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+}
+
+
+/* VS menu option here?---------------- */
+
+.navul {
+    display: flex;
+}
+
+.firstnav li {
+    font-weight: 550;
+    font-size: 16px;
+    padding-top: 15px;
+    list-style: none;
+    padding-right: 22px;
+}
+
+.firstnav li a {
+    color: #9d9d9d;
+    text-decoration: none;
+}
+
+.firstnav li a:hover {
+    color: white;
+    opacity: 0.8;
+}
+
+
+/* navbar second half start here-------  */
+
+.secondnav {
+    /* margin-left: ; */
+    display: flex;
+    width: 28%;
+}
+
+
+/* search input start here --------- */
+
+.secondnav input {
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    border: none;
+    box-sizing: border-box;
+    padding: 0px 15px 0px 40px;
+    background: rgba(255, 255, 255, 0.08);
+    cursor: pointer;
+    width: 58%;
+    height: 50px;
+}
+
+.secondnav input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+.secondnav input:hover {
+    opacity: 1.0;
+    cursor: text;
+}
+
+
+/* secondnav download start here-------*/
+
+.secondnav button {
+    background-image: url(https://code.visualstudio.com/assets/icons/download.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 12px;
+    font-weight: 640;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    color: white;
+    width: 42%;
+    background-color: #0066B8;
+    height: 50px;
+    padding-left: 14px;
+}
+
+.secondnav button:hover {
+    opacity: 0.8;
+}
+
+
+/* second section message start here?------------------------------------------------------- */
+
+.message {
+    background-color: rgb(37, 37, 43);
+    height: 45px;
+}
+
+.contaner {
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+}
+
+.contaner p {
+    opacity: 0.8;
+    margin: auto;
+    text-align: center;
+    padding: 12px;
+    width: 58%;
+}
+
+.contaner p a {
+    color: #0098FF;
+    text-decoration: none;
+}
+
+.contaner p a:hover {
+    text-decoration: underline;
+}
+
+
+/* third section start hereS------------------------------------- */
+
+
+/* section-A here?-------------- */
+
+.section3 {
+    height: 86vh;
+    background-color: #2c2c32;
+}
+
+.section3A {
+    /* width: 90%; */
+    display: flex;
+    height: 86vh;
+    border: 1px solid wheat solid white;
+}
+
+.section3a {
+    width: 35%;
+    border: 1px solid wheat solid red;
+}
+
+.section3a1 {
+    height: 62%;
+    margin: 15% auto;
+    width: 85%;
+    border: 1px solid green;
+}
+
+.section3a1 h1 {
+    line-height: 55px;
+    text-align: center;
+    font-weight: 20;
+    font-family: 'Noto Sans', sans-serif;
+    /* border: 1px solid white; */
+    font-size: 3.1rem;
+}
+
+#a3-1 p {
+    text-align: center;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 7px 0px;
+    /* border: 1px solid wheat solid blue; */
+}
+
+.ca3-2 {
+    /* display: block; */
+    /* margin: auto; */
+    height: 65px;
+    float: left;
+    /* display: flex; */
+    /* border: 1px  solid yellow; */
+}
+
+#a3-2 {
+    background-color: #0066B8;
+    width: 70%;
+    margin: 15px 2px 20px 22px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+#a3-3 {
+    background-color: #0066B8;
+    margin: 15px 25px 15px 0px;
+    width: 15%;
+}
+
+#a3-4 {
+    box-sizing: border-box;
+    margin: 13px 0px 19px 22px;
+    padding-top: 7px;
+    justify-content: center;
+    display: flex;
+    background: #25252B;
+    font-size: small;
+    height: 35px;
+    width: 85%;
+    /* border: 1px solid wheat; */
+    border-radius: 8px;
+}
+
+#a3-4 a {
+    /* color: #0066B8; */
+    color: #0071BC;
+    text-decoration: none;
+}
+
+#a3-5 a {
+    color: #0071BC;
+    text-decoration: none;
+}
+
+#a3-5 {
+    opacity: 0.7;
+    font-weight: 100;
+    font-size: 12px;
+    text-align: center;
+    height: 35px;
+    border: 1px solid red;
+}
+
+#a3-5 a {
+    font-weight: 400;
+    /* opacity: 1; */
+    color: #0071BC;
+    /* color: #005ba4; */
+    /* font-size: 13px; */
+    /* color: #0066B8; */
+}
+
+
+/* section-B here?------------ */
+
+.section3b {
+    width: 65%;
+    /* border: 1px solid wheat solid yellow; */
+    margin: auto;
+    width: 65%;
+    height: 100%;
+}
+
+.section3b img {
+    /* margin: 12%; */
+    width: 100%;
+    height: 100%;
+}
